@@ -5,7 +5,9 @@ This project fine-tunes a BERT-based Transformer model to perform Named Entity R
 ## 🚀 Project Overview
 
 Named Entity Recognition (NER) is the task of detecting and classifying named entities like people, organizations, locations, etc., from text. This project uses the `bert-base-cased` model to train on a labeled dataset for NER and evaluate its performance using standard NLP metrics.
-
+<p align="center">
+  <img src="https://github.com/dohaaymann/Named-Entity-Recognition-with-Transformers/raw/main/NER Image.png" width="600"/>
+</p>
 ## 📁 Dataset
 
 - **Source**: [Kaggle NER Dataset](https://www.kaggle.com/datasets/abhinavwalia95/entity-annotated-corpus)
@@ -26,9 +28,4 @@ Named Entity Recognition (NER) is the task of detecting and classifying named en
   - Batch Size: `16`
   - Epochs: `3`
   - Weight Decay: `0.01`
-
-<p align="center">
-  <img src="https://github.com/dohaaymann/Named-Entity-Recognition-with-Transformers/raw/main/NER Image.png" width="600"/>
-</p>
-
 
